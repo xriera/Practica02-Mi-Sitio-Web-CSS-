@@ -9,20 +9,23 @@ and open the template in the editor.
         <title>Peliculas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="css/estilos.css" rel="stylesheet"/>
     </head>
     <body>
         <header>
-            <a><img src="images/banner.jpg" alt="Curbside Thai" /></a>
-            <nav>
-                <a href="index.html">Inicio</a> |
-                <a href="pagina1.html">Preventa</a> |
-		<a href="pagina2.html">Peliculas de accion</a> |
-		<a href="pagina3.html">Peliculas de terror</a> |			
-                <a href="pagina4.html">Acerca de</a> |
-		<a href="pagina5.html">Contacto</a>
-            </nav>
-        </header>
-        <section>
+            <a><img src="images/banner.jpg" alt="Banner peliculas" id="banner" /></a>
+        </header>           
+        <nav id="menuPrincipal">
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li><a href="pagina1.html">Preventa</a></li>
+                <li><a href="pagina2.html">Peliculas de accion</a></li>
+                <li><a href="pagina3.html">Peliculas de terror</a></li>			
+                <li><a href="pagina4.html">Acerca de</a></li>
+                <li><a href="pagina5.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <section id="contenido">
             <article id="avengers">
                 <h2>AVENGERS: ENDGAME</h2>  
                 <p>En Avengers: Endgame, todos los personajes acaban unidos para 
@@ -58,19 +61,19 @@ and open the template in the editor.
                 <a><img src="images/articulo6.jpg" alt="Curbside Thai" /></a>
             </article>
                  
+        </section>
+        
+        <div id="lateral">
             <aside>
                 <h2>LasImperdibles: una nueva generación de héroes</h2>
                 <p>En los últimos años hemos visto desfilar una larga lista de héroes en la pantalla grande. En #LasImperdibles de este sábado, te traemos un listado con diez películas protagonizadas por una nueva generación de superhéroes.</p>  
             </aside>
-                 
-        </section>
-        
-        <section>
+            
             <aside>
                 <h2>Cuando los animales atacan</h2>
                 <p>Hay animales en el cine que no son tan tiernos como Dumbo, Bambi o Winnie Pooh. A propósito del estreno de 'Cementerio maldito', hemos hecho un repaso por las películas cuyos ciertos personajes del mundo animal están dispuestos a sacar las garras al mínimo fastidio.</p>
             </aside>
-        </section>
+        </div>
         
         <footer>
            Hernan Xavier Riera taza &nbsp; &#8226; &nbsp;    UPS &nbsp;

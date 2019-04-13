@@ -9,21 +9,24 @@ and open the template in the editor.
         <title>Peliculas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet"/>
     </head>
     <body>
         <header>
-            <a><img src="images/banner.jpg" alt="Curbside Thai" /></a>
-            <nav>
-                <a href="index.html">Inicio</a> |
-                <a href="pagina1.html">Preventa</a> |
-		<a href="pagina2.html">Peliculas de accion</a> |
-		<a href="pagina3.html">Peliculas de terror</a> |			
-                <a href="pagina4.html">Acerca de</a> |
-		<a href="pagina5.html">Contacto</a>
-            </nav>
-        </header>
+            <a><img src="images/banner.jpg" alt="Banner peliculas" id="banner" /></a>
+        </header>           
+        <nav id="menuPrincipal">
+            <ul>
+                <li> <a href="index.html">Inicio</a></li>
+                <li><a href="pagina1.html">Preventa</a></li>
+                <li><a href="pagina2.html">Peliculas de accion</a></li>
+                <li><a href="pagina3.html">Peliculas de terror</a></li>			
+                <li><a href="pagina4.html">Acerca de</a></li>
+                <li><a href="pagina5.html">Contacto</a></li>
+            </ul>
+        </nav>
         
-        <section>
+        <section id="contenido">
             <article>
                 <h2>LA MALDICIÓN DE LA LLORONA</h2>
                 <p>Tras ignorar sus espeluznantes advertencias, La Llorona ahora persigue a una trabajadora social y sus pequeños hijos. La única esperanza que tienen de sobrevivir a su ira letal será a través de un cura y un ritual para eliminar el espíritu maligno en los límites entre el miedo y la fe.</p>
@@ -40,7 +43,7 @@ and open the template in the editor.
                 <a><img src="images/articulo12.jpg" alt="Curbside Thai" /></a>
             </article>
         </section>
-        <section>
+        <div id="lateral">
             <aside>
                 <h2>Notas</h2>
                 <p> <b>Hablemos de la nueva 'Hellboy' ¿tiene algo en común con la de Guillermo del Toro?</b><br>
@@ -48,7 +51,7 @@ and open the template in the editor.
                     
                 </p>
             </aside>
-        </section>
+        </div>
         <footer>
            Hernan Xavier Riera taza &nbsp; &#8226; &nbsp;    UPS &nbsp;
            &#8226; &nbsp;Email: <a href="mailto:hriera@est.ups.edu.ec">hriera@est.ups.edu.ec</a> &nbsp;
