@@ -61,3 +61,18 @@ a:focus {
   text-decoration: none;
 
 }
+/*formulario */
+.form_register h1{
+    color: #3c93b0;
+}
+#container{
+    padding: 90px 15px 15px;
+}
+.btn_new{
+    display: inline-block;
+    background: #239baa;
+    color: #FFF;
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 20px;
+}

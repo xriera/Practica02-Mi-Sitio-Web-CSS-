@@ -28,18 +28,32 @@ and open the template in the editor.
         </nav>
         
         <div id="contenido1">
-        <section>
-            <article>
-                <h2>Contactanos</h2>
-                <p>Estamos aquí para ayudarte.<br>
-                    Envianos un correo a <a href="mailto:hriera@est.ups.edu.ec">hriera@est.ups.edu.ec</a> <br>
-                    Telefono: <a href="tel:(503) 301-4444">(503) 301-4444</a>
-                </p>
-            </article>
             <article>
                  <h3>Tambien</h3>
             <p>Con la finalidad de ahorrarle tiempo y agilitar la entrega de la información que usted requiere, antes de enviarnos una consulta por este medio, por favor haga click en la pestaña de Preguntas Frecuentes Es posible que su consulta conste en dicho listado y usted de esa manera recibirá retroalimentación inmediata.</p>
             </article>
+        
+            <section id="container">
+            <div class="form_register">
+                <h1>Registro Cliente</h1>
+                <hr>
+                <div class="alert"><?php echo isset($alert) ? $alert : ''; ?></div>
+
+                <form action="" method="post">
+                    <label for="nit">Cedula</label>
+                    <input type="number" name="nit" id="correo" placeholder="Numero de Cedula"><br>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo"><br>
+                   
+                    <label for="telefono">Telefono: </label>
+                    <input type="number" name="telefono" id="telefono" placeholder="Telefono"><br>
+                    <label for="direccion">Direccion </label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Direccion Completa"><br>
+                   
+                   
+                    <input type="submit" value="Enviar" class="btn_save"><br>
+                </form>
+            </div>
         </section>
         </div>
         
