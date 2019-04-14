@@ -7,6 +7,23 @@ and open the template in the editor.
     Created on : 12-abr-2019, 19:58:54
     Author     : xavier
 */
+h1, h2, h3{
+    color: #0B0B61;
+     font-family: courier;
+}
+h1{ 
+    font-size: 40px;
+    font-family: Arial;
+    text-decoration: highlight;
+}
+h2{
+    margin-left: 10px;
+    font-family: courier;
+}
+h3{
+    background: #4FCDCA;
+    text-decoration: blink;
+}
 a {
     text-decoration: none;
     font-family: Verdana, Geneva, Arial, sans-serif;
