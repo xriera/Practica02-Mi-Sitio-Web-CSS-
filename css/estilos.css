@@ -24,8 +24,9 @@ footer{
     padding-left: 10%;
 }
 body{
-   padding-left: 20%;
-   padding-right: 10%;   
+    margin-left: 15%;
+   margin-right: 15%;
+   width: 68%;
 }
 .banner{
     width: 999px;
@@ -34,4 +35,11 @@ body{
 .img1{
     width: 560px;
     height: 315px;
+}
+a:hover,
+a:active,
+a:focus {
+  color: darkred;
+  text-decoration: none;
+
 }
